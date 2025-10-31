@@ -20,7 +20,7 @@ function guessgame(){
 }
 
 
-//guessgame();
+guessgame();
 
 
 
@@ -58,5 +58,6 @@ function validForm() {
     }
     
 }
+
 
 document.querySelector(".button").addEventListener("click", validForm);
